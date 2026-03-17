@@ -25,7 +25,7 @@ export function HealthBadge({ status }: Props) {
       className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm font-semibold ${badgeStyles[status]}`}
     >
       <span className={`h-2.5 w-2.5 rounded-full ${dotStyles[status]}`} />
-      {status}
+      {status} Lets introduce a bug to test code review? <</> guu
     </span>
   );
 }
